@@ -26,4 +26,10 @@ SEND_STRING_ENABLE = yes
 TAP_DANCE_ENABLE = yes
 ```
 
+- You no longer need to sideload json in via
+- sensible encoder layout
+- Vial specific feature like macro delay
+- RGB
+- the knob now correctly emits 20 pulse per revolution, matching the dedent. 
+
 using code from this pr https://github.com/qmk/qmk_firmware/pull/18699
