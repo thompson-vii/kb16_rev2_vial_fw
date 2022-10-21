@@ -26,6 +26,7 @@ SEND_STRING_ENABLE = yes
 TAP_DANCE_ENABLE = yes
 ```
 
+Advantage over stoke firmware.
 - You no longer need to sideload json in via
 - sensible encoder layout
 - Vial specific feature like macro delay
