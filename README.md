@@ -25,7 +25,7 @@ SEND_STRING_ENABLE = yes
 TAP_DANCE_ENABLE = yes
 ```
 
-Advantage over stoke firmware.
+Advantage over stock firmware.
 - Embeded layout so no need for sideloading json
 - Native encoder layout
 - Vial specific feature like macro delay
@@ -36,5 +36,5 @@ using code from this pr https://github.com/qmk/qmk_firmware/pull/18699
 
 Credit:
 - HorrorTroll: QMK port
-- PSC138: Pin schematic
+- PHSC138: Pin schematic
 - Kolloom: Vial port, graphics, layout
