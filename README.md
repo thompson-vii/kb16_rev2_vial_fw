@@ -1,7 +1,7 @@
 # kb16_rev2_vial_fw
 compiled firmware for doio's kb16 rev2 
 
-Not compatible with via. Must use vial.
+Not compatible with via. Must use vial. Not compatible with rev1
 
 Use qmk toolbox, hold top left key while plugging it in. 
 Pick the bin file and click on flash. After flashing reconnect the usb cable. 
