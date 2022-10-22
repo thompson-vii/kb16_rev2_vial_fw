@@ -26,10 +26,15 @@ TAP_DANCE_ENABLE = yes
 ```
 
 Advantage over stoke firmware.
-- You no longer need to sideload json in via
-- sensible encoder layout
+- Embeded layout so no need for sideloading json
+- Native encoder layout
 - Vial specific feature like macro delay
 - RGB
 - the knob now correctly emits 20 pulse per revolution, matching the dedent. 
 
 using code from this pr https://github.com/qmk/qmk_firmware/pull/18699
+
+Credit:
+- HorrorTroll: QMK port
+- PSC138: Pin schematic
+- Kolloom: Vial port, graphics, layout
