@@ -7,8 +7,7 @@ Use qmk toolbox, hold top left key while plugging it in.
 Pick the bin file and click on flash. After flashing reconnect the usb cable. 
 If everything goes well, you should see RGB pattern. 
 
-compiled with following flag, layer count increased to 8. OLED doesn't display layer beyond 4. No plan to fix. 
-
+compiled with following flag, layer count increased to 8. Added custom graphics so oled can display up to 12 layers.
 ```
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
