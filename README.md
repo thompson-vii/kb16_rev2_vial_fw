@@ -23,6 +23,15 @@ MOUSEKEY_ENABLE = yes
 COMBO_ENABLE = yes
 SEND_STRING_ENABLE = yes
 TAP_DANCE_ENABLE = yes
+
+EEPROM_DRIVER = vendor
+```
+
+keymap config.h
+
+```
+#define STM32_ONBOARD_EEPROM_SIZE 4098
+#define DYNAMIC_KEYMAP_LAYER_COUNT 12
 ```
 
 Advantage over stock firmware.
