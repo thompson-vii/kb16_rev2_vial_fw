@@ -30,11 +30,11 @@ USE_VIA = yes
 
 # OLED enabled
 OLED_ENABLE = yes
-OLED_DRIVER = SSD1306
+OLED_DRIVER = ssd1306
 
 # RGB Matrix enabled
 RGB_MATRIX_ENABLE = yes
-RGB_MATRIX_DRIVER = WS2812
+RGB_MATRIX_DRIVER = ws2812
 
 # Encoder enabled
 ENCODER_ENABLE = yes
