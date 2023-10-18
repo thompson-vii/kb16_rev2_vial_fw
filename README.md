@@ -1,3 +1,10 @@
+# Aluminum-Ice Fork Updates
+
+* Increased macro count to 36
+* Resolved issue with STM32F103xB_stm32duino_bootloader.ld
+* Align with latest vial-qmk which changed RBG_MATRIX configs and case conditions inside the rules.mk file 
+-----
+
 ![](./layer.jpg)
 
 # kb16_rev2_vial_fw
