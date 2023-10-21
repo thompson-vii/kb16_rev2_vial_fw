@@ -1,3 +1,17 @@
+# Fork Updates
+
+* Increased macro count to 36
+* Resolved issue with STM32F103xB_stm32duino_bootloader.ld
+* Align with latest vial-qmk which changed RBG_MATRIX configs and case conditions inside the rules.mk file
+
+### Vial-QMK
+
+* Installed in my vial-qmk fork under `doio/kb16tv`
+* Compiled as `qmk compile -kb doio/kb16tv/rev2 -km vial`
+* To install, use firmware `doio_kb16tv_rev2_vial.bin` from my latest release and the QMK Toolbox
+
+-----
+
 ![](./layer.jpg)
 
 # kb16_rev2_vial_fw

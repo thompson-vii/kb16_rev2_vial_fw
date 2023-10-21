@@ -1,0 +1,17 @@
+# MacOS
+*.DS_Store
+*.sublime*
+
+# Secrets
+*.secret
+
+# Log
+/log/*.log
+
+# Virtual environment
+/virt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
