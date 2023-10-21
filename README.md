@@ -6,8 +6,9 @@
 
 ### Vial-QMK
 
-* Installed in my fork of vial-qmk under `doio/kb16tv` and compiled as `qmk compile -kb doio/kb16tv/rev2 -km vial`
-* Install firmware `doio_kb16tv_rev2_vial.bin` from my latest release using QMK Toolbox
+* Installed in my vial-qmk fork under `doio/kb16tv`
+* Compiled as `qmk compile -kb doio/kb16tv/rev2 -km vial`
+* To install, use firmware `doio_kb16tv_rev2_vial.bin` from my latest release and the QMK Toolbox
 
 -----
 
