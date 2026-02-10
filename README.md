@@ -3,6 +3,8 @@
 # kb16_rev2_vial_fw
 compiled firmware for doio's kb16 rev2 
 
+⚠ The firmware has been upstreamed to official vial repo by Clownfish (with default configurations) https://github.com/vial-kb/vial-qmk/pull/875
+
 Not compatible with via. Must use vial. 
 
 *Not compatible with rev1*
