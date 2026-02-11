@@ -2,7 +2,7 @@
     "name": "KB16-01",
     "vendorId": "0xD010",
     "productId": "0x1601",
-    "lighting": "none",
+    "lighting": "vialrgb",
     "matrix": {
         "rows": 4,
         "cols": 5

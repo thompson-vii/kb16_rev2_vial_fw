@@ -19,6 +19,7 @@
 
 // OLED animation
 #include "lib/layer_status/layer_status.h"
+#include "lib/logo.h"
 
 // Each layer gets a name for readability, which is then used in the keymap matrix below.
 // The underscores don't mean anything - you can have a layer called STUFF or any other name.
@@ -122,7 +123,36 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             ),
 };
 
+// Default timeout for displaying boot logo.
+#ifndef OLED_LOGO_TIMEOUT
+    #define OLED_LOGO_TIMEOUT 60000
+#endif
+
 #ifdef OLED_ENABLE
+    // Display Splash Logo
+    uint16_t startup_timer;
+
+    oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
+        startup_timer = timer_read();
+
+        return rotation;
+    }
+
+    bool oled_task_kb(void) {
+        static bool finished_logo = false;
+
+        if ((timer_elapsed(startup_timer) < OLED_LOGO_TIMEOUT) && !finished_logo) {
+            render_logo();
+        } else {
+            finished_logo = true;
+            if (!oled_task_user()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // Display Layer Status Images
     bool oled_task_user(void) {
         render_layer_status();
 
